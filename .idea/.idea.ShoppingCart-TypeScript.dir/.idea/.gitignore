@@ -1,0 +1,13 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/modules.xml
+/projectSettingsUpdater.xml
+/.idea.ShoppingCart-TypeScript.iml
+/contentModel.xml
+# Datasource local storage ignored files
+/../../../../../../../../../:\Users\jesseslgj\Documents\Design Patterns (.Net)\ShoppingCart-TypeScript\.idea\.idea.ShoppingCart-TypeScript.dir\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
