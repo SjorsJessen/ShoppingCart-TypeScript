@@ -7,7 +7,7 @@ import {Wrapper} from './Cart.styles';
 //Types
 import {CartItemType} from "../App";
 
-type Props = {
+interface Props  {
     cartItems: CartItemType[];
     addToCart: (clickedItem: CartItemType) => void;
     removeFromCart: (id: number) => void;
@@ -29,7 +29,7 @@ const Cart: React.FC<Props> = ({cartItems, addToCart, removeFromCart}) => {
                     removeFromCart={removeFromCart}
                 />
             ))}
-            <h2>Total: ${calculateTotal(cartItems).toFixed(2)}</h2>
+            <h2>Total: ${calculateTotal(cartItems).toFixed(2)}</h2>  
         </Wrapper>
     )
 }    
